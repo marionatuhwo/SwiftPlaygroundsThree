@@ -40,3 +40,19 @@ for name in fruitNames{
 //fruitNames = ["Kiwi", "Apples", "Watermelon"]
 print(fruitNames[1])
 
+//Problem Set #1 (10 points)
+/*Declare and assign a new array that includes 8 items of type string that are names of the most expensive cars that you can find. (4 points).*/
+
+var cars = ["Ferrari", "Lambrogini", "Bugatti Veyron", "Lykan Hypersport", "Lamborghini Sian", "Koenigsegg CCXR Trevita", "Mercedes-Maybach Exelero", "Rolls-Royce Sweptail"]
+/*Use the for-in loop to iterate through the array and print “Item in array is a very expensive car” (Hint: Review Part 6 and you will have a total of 8 lines that will print in the console) (5 points)*/
+
+for car in cars
+{
+        print(car + " is a very expensive car!")
+}
+
+//Print out the item at index 0. (1 point)
+
+print(cars[0])
+
+
